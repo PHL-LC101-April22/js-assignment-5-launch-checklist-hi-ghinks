@@ -1,6 +1,14 @@
 // Write your JavaScript code here!
 
 window.addEventListener("load", function() {
+    let form = document.querySelector("form");
+    form.addEventListener("submit", function(event) {
+        let pilot = document.querySelector(input[this.name=pilotName]);
+        let copilot = document.querySelector(input[this.name=copilotName]);
+        let fuelLevel = document.querySelector(input[this.name=fuelLevel]);
+        let cargoMass = document.querySelector(input[this.name=cargoMass]);
+    })
+
 
    let listedPlanets;
    // Set listedPlanetsResponse equal to the value returned by calling myFetch()

@@ -98,10 +98,10 @@ let choice = Math.floor(Math.random()*planets.length);
 return planets[choice];
 }
 
-function pickPlanet(planets) {
+function pickPlanet(planetsChoices) {
   
-        let planets = ["Tatooine", "Pern", "Saturn/Titan", "Mars", "K2-18b", "Jupiter/Europa"]
-        let anyPlanet = Math.random(planets);
+        let planetsChoices = ["Tatooine", "Pern", "Saturn/Titan", "Mars", "K2-18b", "Jupiter/Europa"]
+        let anyPlanet = Math.random(planetsChoices);
         console.log(anyPlanet);
     
 } 

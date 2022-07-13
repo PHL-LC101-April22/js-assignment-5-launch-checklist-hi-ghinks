@@ -96,8 +96,8 @@ return planets[choice];
 
 function pickPlanet(planets) {
   
-        let planets = ["Tatooine", "Pern", "Saturn/Titan", "Mars", "K2-18b", "Jupiter/Europa"]
-        let anyPlanet = Math.random(planets);
+        let listedPlanets = ["Tatooine", "Pern", "Saturn/Titan", "Mars", "K2-18b", "Jupiter/Europa"]
+        let anyPlanet = Math.random(listedPlanets);
         console.log(anyPlanet);
     
 } 
